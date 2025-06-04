@@ -157,6 +157,12 @@ section:hover {
     margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr; /* uma coluna */
+  }
+}
+
 .service-item {
     background: var(--light-bg);
     padding: 25px;
