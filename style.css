@@ -70,8 +70,8 @@ header .container {
 }
 
 header .logo {
-    height: 60px;
-    margin-right: 25px;
+    height: 70px;
+    margin-right: 0px;
     filter: brightness(1.2); 
     transition: transform 0.3s ease-in-out;
 }
