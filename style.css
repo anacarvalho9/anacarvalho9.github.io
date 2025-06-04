@@ -85,9 +85,8 @@ header nav ul {
     padding: 0;
     list-style: none;
     display: flex;
-    text-align: center;
 }
-/* alinhar logo */
+
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
