@@ -335,6 +335,7 @@ img {
     }
 	.service-grid {
     grid-template-columns: 1fr; /* uma coluna */
+	}
 }
 
 @media (max-width: 480px) {
@@ -363,6 +364,7 @@ img {
     }
 	.service-grid {
     grid-template-columns: 1fr; /* uma coluna */
+	}
 }
 
 /* Hero Section (IMAGEM DE FUNDO E BANNER ESCURO) */
