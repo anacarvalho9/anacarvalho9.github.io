@@ -334,7 +334,7 @@ img {
         font-size: 1.1em;
     }
 	.service-grid {
-    grid-template-columns: 1fr; /* uma coluna */
+    grid-template-columns: 1fr !important; /* uma coluna */
 	}
 }
 
@@ -363,7 +363,7 @@ img {
         padding: 20px;
     }
 	.service-grid {
-    grid-template-columns: 1fr; /* uma coluna */
+    grid-template-columns: 1fr !important; /* uma coluna */
 	}
 }
 
