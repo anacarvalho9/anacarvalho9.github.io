@@ -312,8 +312,6 @@ img {
 	padding: 0;
         flex-direction: column;
         align-items: center;
-	text-align: center;
-
     }
 
     header nav li {
