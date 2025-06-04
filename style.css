@@ -151,16 +151,10 @@ section:hover {
 }
 
 #services .service-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(280px, 1fr));
-    gap: 30px;
-    margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-  .service-grid {
-    grid-template-columns: 1fr; /* uma coluna */
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 20px;
+  padding: 20px;
 }
 
 .service-item {
@@ -339,6 +333,8 @@ img {
         padding: 13px 30px;
         font-size: 1.1em;
     }
+	.service-grid {
+    grid-template-columns: 1fr; /* uma coluna */
 }
 
 @media (max-width: 480px) {
@@ -365,6 +361,8 @@ img {
     section {
         padding: 20px;
     }
+	.service-grid {
+    grid-template-columns: 1fr; /* uma coluna */
 }
 
 /* Hero Section (IMAGEM DE FUNDO E BANNER ESCURO) */
